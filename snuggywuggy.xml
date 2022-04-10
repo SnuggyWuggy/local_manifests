@@ -17,8 +17,8 @@
 */
  -->
 <manifest>
-    <remote name="sw" fetch="https://github.com/snuggywuggy" revision="lineage-19.0"/>
-    <remote name="sw-gitlab" fetch="https://gitlab.com/snuggywuggy" revision="lineage-19.0"/>
+    <remote name="sw" fetch="https://github.com/snuggywuggy" revision="lineage-19.1"/>
+    <remote name="sw-gitlab" fetch="https://gitlab.com/snuggywuggy" revision="lineage-19.1"/>
     <!--  Device Source  -->
     <project path="device/xiaomi/alioth" name="device_xiaomi_alioth"  remote="sw"/>
     <project path="device/xiaomi/alioth-firmware" name="device_xiaomi_alioth-firmware" clone-depth="1" remote="sw-gitlab"/>
